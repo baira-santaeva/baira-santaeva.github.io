@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Flavour Lab — discover fresh recipes, cooking tips, and culinary inspiration every day." />
+  <title>Flavour Lab — Recipes &amp; Cooking Inspiration</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="nav-logo">Flavour<span>Lab</span></a>
+      <ul class="nav-links">
+        <li><a href="#categories">Categories</a></li>
+        <li><a href="#recipes">Recipes</a></li>
+        <li><a href="#tips">Tips</a></li>
+        <li><a href="#newsletter">Newsletter</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <p class="hero-badge">🍳 New recipes every week</p>
+      <h1 class="hero-title">Cook with <span>Confidence</span></h1>
+      <p class="hero-sub" id="typed-text"></p>
+      <div class="hero-actions">
+        <a href="#recipes" class="btn btn-primary">Browse Recipes</a>
+        <a href="#categories" class="btn btn-outline">Explore Categories</a>
+      </div>
+    </div>
+    <div class="hero-scroll">
+      <span>Scroll down</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- Stats Bar -->
+  <div class="stats-bar">
+    <div class="container stats-inner">
+      <div class="stat">
+        <div class="stat-num">500+</div>
+        <div class="stat-label">Recipes</div>
+      </div>
+      <div class="stat">
+        <div class="stat-num">40+</div>
+        <div class="stat-label">Cuisines</div>
+      </div>
+      <div class="stat">
+        <div class="stat-num">120K</div>
+        <div class="stat-label">Monthly Readers</div>
+      </div>
+      <div class="stat">
+        <div class="stat-num">98%</div>
+        <div class="stat-label">Made it Again</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Categories -->
+  <section id="categories" class="section">
+    <div class="container">
+      <h2 class="section-title">What Are You in the Mood For?</h2>
+      <p class="section-sub">Browse recipes by category and find your next favourite dish.</p>
+      <div class="categories-grid">
+        <div class="cat-card"><div class="cat-icon">🥗</div><h3>Salads</h3><p>34 recipes</p></div>
+        <div class="cat-card"><div class="cat-icon">🍝</div><h3>Pasta</h3><p>58 recipes</p></div>
+        <div class="cat-card"><div class="cat-icon">🍣</div><h3>Seafood</h3><p>41 recipes</p></div>
+        <div class="cat-card"><div class="cat-icon">🥩</div><h3>Meat</h3><p>63 recipes</p></div>
+        <div class="cat-card"><div class="cat-icon">🌱</div><h3>Vegan</h3><p>77 recipes</p></div>
+        <div class="cat-card"><div class="cat-icon">🍰</div><h3>Desserts</h3><p>52 recipes</p></div>
+        <div class="cat-card"><div class="cat-icon">🥣</div><h3>Soups</h3><p>29 recipes</p></div>
+        <div class="cat-card"><div class="cat-icon">🍹</div><h3>Drinks</h3><p>38 recipes</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured Recipes -->
+  <section id="recipes" class="section section-alt">
+    <div class="container">
+      <h2 class="section-title">Featured Recipes</h2>
+      <p class="section-sub">Hand-picked by our team — tried, tested, and absolutely delicious.</p>
+      <div class="recipes-grid">
+
+        <article class="recipe-card">
+          <img class="recipe-img"
+            src="https://images.unsplash.com/photo-1612874742237-6526221588e3?w=600&q=75"
+            alt="Creamy Tuscan Pasta" loading="lazy" />
+          <div class="recipe-body">
+            <div class="recipe-meta">
+              <span>⏱ 25 min</span><span>👤 2 servings</span><span>⭐ 4.9</span>
+            </div>
+            <h3>Creamy Tuscan Pasta</h3>
+            <p>Sun-dried tomatoes, spinach, and a velvety garlic cream sauce that comes together in under 30 minutes.</p>
+            <div class="recipe-footer">
+              <span class="difficulty easy">Easy</span>
+              <a href="#" class="btn btn-sm btn-primary">View Recipe</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="recipe-card">
+          <img class="recipe-img"
+            src="https://images.unsplash.com/photo-1585032226651-759b368d7246?w=600&q=75"
+            alt="Honey Garlic Salmon" loading="lazy" />
+          <div class="recipe-body">
+            <div class="recipe-meta">
+              <span>⏱ 20 min</span><span>👤 4 servings</span><span>⭐ 4.8</span>
+            </div>
+            <h3>Honey Garlic Salmon</h3>
+            <p>Pan-seared salmon glazed with a sweet and savory honey garlic sauce — weeknight dinner sorted.</p>
+            <div class="recipe-footer">
+              <span class="difficulty easy">Easy</span>
+              <a href="#" class="btn btn-sm btn-primary">View Recipe</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="recipe-card">
+          <img class="recipe-img"
+            src="https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=600&q=75"
+            alt="Lamb Biryani" loading="lazy" />
+          <div class="recipe-body">
+            <div class="recipe-meta">
+              <span>⏱ 90 min</span><span>👤 6 servings</span><span>⭐ 4.7</span>
+            </div>
+            <h3>Lamb Biryani</h3>
+            <p>Fragrant basmati rice layered with slow-cooked tender lamb, saffron, and whole warm spices.</p>
+            <div class="recipe-footer">
+              <span class="difficulty hard">Advanced</span>
+              <a href="#" class="btn btn-sm btn-primary">View Recipe</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="recipe-card">
+          <img class="recipe-img"
+            src="https://images.unsplash.com/photo-1540420773420-3366772f4999?w=600&q=75"
+            alt="Summer Quinoa Bowl" loading="lazy" />
+          <div class="recipe-body">
+            <div class="recipe-meta">
+              <span>⏱ 15 min</span><span>👤 2 servings</span><span>⭐ 4.6</span>
+            </div>
+            <h3>Summer Quinoa Bowl</h3>
+            <p>A vibrant, protein-packed bowl with roasted veggies, avocado, and a zesty lemon tahini dressing.</p>
+            <div class="recipe-footer">
+              <span class="difficulty easy">Easy</span>
+              <a href="#" class="btn btn-sm btn-primary">View Recipe</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="recipe-card">
+          <img class="recipe-img"
+            src="https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=600&q=75"
+            alt="Classic Smash Burger" loading="lazy" />
+          <div class="recipe-body">
+            <div class="recipe-meta">
+              <span>⏱ 30 min</span><span>👤 4 servings</span><span>⭐ 4.9</span>
+            </div>
+            <h3>Classic Smash Burger</h3>
+            <p>Thin, crispy-edged patties with American cheese, caramelised onions, and a secret sauce.</p>
+            <div class="recipe-footer">
+              <span class="difficulty medium">Medium</span>
+              <a href="#" class="btn btn-sm btn-primary">View Recipe</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="recipe-card">
+          <img class="recipe-img"
+            src="https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?w=600&q=75"
+            alt="Classic Tiramisu" loading="lazy" />
+          <div class="recipe-body">
+            <div class="recipe-meta">
+              <span>⏱ 40 min</span><span>👤 8 servings</span><span>⭐ 5.0</span>
+            </div>
+            <h3>Classic Tiramisu</h3>
+            <p>Espresso-soaked ladyfingers, silky mascarpone cream, and a generous dusting of cocoa. Perfection.</p>
+            <div class="recipe-footer">
+              <span class="difficulty medium">Medium</span>
+              <a href="#" class="btn btn-sm btn-primary">View Recipe</a>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Cooking Tips -->
+  <section id="tips" class="section">
+    <div class="container">
+      <h2 class="section-title">Pro Kitchen Tips</h2>
+      <p class="section-sub">Small tricks that make a big difference at the stove.</p>
+      <div class="tips-grid">
+        <div class="tip-card">
+          <h3>🧂 Season in layers</h3>
+          <p>Add salt at each stage of cooking rather than just at the end — it builds depth and brings out natural flavours.</p>
+        </div>
+        <div class="tip-card">
+          <h3>🔪 Keep your knives sharp</h3>
+          <p>A sharp knife is safer and more precise. Hone your blade before each session and sharpen it every few months.</p>
+        </div>
+        <div class="tip-card">
+          <h3>🍳 Don't crowd the pan</h3>
+          <p>Overcrowding drops the pan temperature and steams instead of sears. Cook in batches for a golden crust.</p>
+        </div>
+        <div class="tip-card">
+          <h3>🌡️ Use a meat thermometer</h3>
+          <p>Stop guessing doneness. A thermometer removes the guesswork and guarantees perfectly cooked protein every time.</p>
+        </div>
+        <div class="tip-card">
+          <h3>🧄 Bloom your spices</h3>
+          <p>Toast whole spices or fry ground ones in oil for 30 seconds before adding other ingredients to unlock their full aroma.</p>
+        </div>
+        <div class="tip-card">
+          <h3>🫙 Mise en place</h3>
+          <p>Prep and measure all ingredients before you start cooking. It keeps you calm, organised, and produces better results.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Newsletter -->
+  <section id="newsletter" class="section section-alt">
+    <div class="container">
+      <div class="newsletter">
+        <h2 class="section-title">Get Weekly Recipes</h2>
+        <p>Join 120,000+ food lovers and get fresh, seasonal recipes delivered straight to your inbox every Friday.</p>
+        <form id="nl-form" class="nl-form" novalidate>
+          <input type="email" placeholder="your@email.com" required aria-label="Email address" />
+          <button type="submit" class="btn btn-primary">Subscribe</button>
+        </form>
+        <p id="nl-status"></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <span class="footer-logo">Flavour<span>Lab</span></span>
+      <p style="font-size:.85rem;">&copy; 2026 FlavourLab. All rights reserved.</p>
+      <div class="footer-links">
+        <a href="#">About</a>
+        <a href="#">Privacy</a>
+        <a href="#">Contact</a>
+        <a href="#">Instagram</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
